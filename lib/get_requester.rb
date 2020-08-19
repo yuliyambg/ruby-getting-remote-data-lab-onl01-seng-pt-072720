@@ -20,8 +20,4 @@ class GetRequester
     data = get_response_body()
     return JSON.parse(data)
   end
-  
-  # URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
-  
-
 end
